@@ -1,0 +1,46 @@
+{
+  "L1": {
+    "share_pct": {
+      "m": 14.8,
+      "z1": 17.36,
+      "z2": 6.95,
+      "b": 5.65,
+      "x1": 2.29,
+      "x2": 2.45,
+      "logT1": 10.61,
+      "logn1": 9.57,
+      "Ra": 9.37,
+      "logeta": 3.69,
+      "oil_pao": 6.44,
+      "oil_pag": 10.82
+    },
+    "group_share_pct": {
+      "tooth geometry (z1, z2, x1, x2)": 29.05,
+      "size (m, b)": 20.45,
+      "operating (T1, n1)": 20.18,
+      "tribology (Ra, eta, oil)": 30.32
+    }
+  },
+  "spread": {
+    "share_pct": {
+      "m": 50.59,
+      "z1": 22.65,
+      "z2": 13.68,
+      "b": 0.51,
+      "x1": 3.55,
+      "x2": 5.03,
+      "logT1": 0.77,
+      "logn1": 0.22,
+      "Ra": 0.23,
+      "logeta": 0.35,
+      "oil_pao": 1.01,
+      "oil_pag": 1.42
+    },
+    "group_share_pct": {
+      "tooth geometry (z1, z2, x1, x2)": 44.9,
+      "size (m, b)": 51.1,
+      "operating (T1, n1)": 0.99,
+      "tribology (Ra, eta, oil)": 3.01
+    }
+  }
+}

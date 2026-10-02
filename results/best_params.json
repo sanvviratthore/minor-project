@@ -1,0 +1,49 @@
+{
+  "best_params": {
+    "ANN": {
+      "mlpregressor__activation": "tanh",
+      "mlpregressor__alpha": 1.5369603110608839e-06,
+      "mlpregressor__hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "mlpregressor__learning_rate_init": 0.0006974018546851301
+    },
+    "SVR": {
+      "svr__C": 3.5498788321965016,
+      "svr__epsilon": 0.0006624310605949987,
+      "svr__gamma": 0.03752055855124281
+    },
+    "RF": {
+      "max_depth": 30,
+      "max_features": 0.9882616200647516,
+      "min_samples_leaf": 1
+    },
+    "XGBoost": {
+      "colsample_bytree": 0.5003893829205072,
+      "learning_rate": 0.14766443101170285,
+      "max_depth": 3,
+      "min_child_weight": 4,
+      "subsample": 0.8446612641953124
+    }
+  },
+  "tuning": {
+    "ANN": {
+      "cv_rmse_log": 0.018541404838568216,
+      "tune_s": 202.4871702194214
+    },
+    "SVR": {
+      "cv_rmse_log": 0.017485621401805717,
+      "tune_s": 285.83762311935425
+    },
+    "RF": {
+      "cv_rmse_log": 0.16590200628874233,
+      "tune_s": 60.656325578689575
+    },
+    "XGBoost": {
+      "cv_rmse_log": 0.047151113980277014,
+      "tune_s": 23.274736166000366
+    }
+  }
+}
